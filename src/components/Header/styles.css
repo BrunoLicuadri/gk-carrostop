@@ -11,3 +11,9 @@
     color: var(--gkct-font-tertiary);
     font-size: 20px;
   }
+
+  @media (min-width: 576px){
+    .gkct-header h1{
+      font-size: 24px;
+    }
+  }
