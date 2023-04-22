@@ -1,0 +1,13 @@
+.gkct-header {
+    background-color: var(--gkct-bg-header);
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .gkct-header h1{
+    color: var(--gkct-font-tertiary);
+    font-size: 20px;
+  }

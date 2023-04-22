@@ -1,0 +1,10 @@
+.gkct-card-container img {
+    width: 260px;
+    margin: 5px;
+  }
+
+  @media (min-width:576px){
+    .gkct-card-container img {
+      width: 391px;
+    }
+  }
