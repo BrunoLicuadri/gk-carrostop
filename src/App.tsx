@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Bugati from "./components/CarsTop/Bugati";
 import DSCar from "./components/CarsTop/DSCar";
+import Comments from "./components/Comments";
 
 
 
@@ -13,16 +14,18 @@ function App() {
 
         <section className="card-section">
           <h1>Venha nos visitar</h1>
-          <Bugati/>
-          <DSCar/>
+          <Bugati />
+          <DSCar />
         </section>
 
-        <section>
-          Comments
-          
+        <section className="comments-section">
+          <h2>O que estão dizendo</h2>
+          <Comments/>
+          <Comments/>
+          <Comments/>
+          <Comments/>
+          <Comments/>
         </section>
-
-
       </main>
 
       <footer>

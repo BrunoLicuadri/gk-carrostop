@@ -1,0 +1,27 @@
+.comments-card {
+    background-color: var(--gkct-bg-card-section);
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 25px 20px;
+    border: 1px solid var(--gkct-border-line);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+  
+.comments-card:hover {
+    border: 2px solid var(--gkct-border-line);
+}
+  
+.comments-card p {
+    color: var(--gkct-font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px){
+    .comments-card {
+      max-width: 960px;
+      height: 74px;
+    }
+}

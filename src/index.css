@@ -26,9 +26,6 @@ html, body {
 }
 
 
-main {
-  padding: 0 20px;
-}
 
 /*SECTION CARD*/
 
@@ -83,6 +80,33 @@ main {
 
 
 /*SECTION COMMENTS*/
+
+.comments-section {
+  width: 100%;
+  padding: 0 20px;
+  background-color: var(--gkct-bg-comments-section);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments-section:hover {
+  border: 1px solid var(--gkct-border-line);
+}
+
+.comments-section h2 {
+  font-size: 20px;
+  color: var(--gkct-font-primary);
+  margin: 25px 0;
+}
+
+@media (min-width: 576px){
+  .comments-section h2 {
+    font-size: 32px;
+  }
+}
+
+/*FOOTER COMMENTS*/
 
 
 
