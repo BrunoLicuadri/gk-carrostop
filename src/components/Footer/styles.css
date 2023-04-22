@@ -1,0 +1,25 @@
+.footer-addresses{
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+  
+.footer-addresses p{
+    color: var(--gkct-font-tertiary);
+    font-size: 16px;
+    padding: 5px 0;
+}
+  
+.social-address {
+    cursor: pointer;
+}
+  
+@media (min-width:576px){
+    .footer-addresses{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+}

@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Bugati from "./components/CarsTop/Bugati";
 import DSCar from "./components/CarsTop/DSCar";
 import Comments from "./components/Comments";
+import Footer from "./components/Footer";
 
 
 
@@ -20,16 +21,16 @@ function App() {
 
         <section className="comments-section">
           <h2>O que estão dizendo</h2>
-          <Comments/>
-          <Comments/>
-          <Comments/>
-          <Comments/>
-          <Comments/>
+          <Comments />
+          <Comments />
+          <Comments />
+          <Comments />
+          <Comments />
         </section>
       </main>
 
       <footer>
-        Rodapé
+        <Footer/>
       </footer>
 
 
